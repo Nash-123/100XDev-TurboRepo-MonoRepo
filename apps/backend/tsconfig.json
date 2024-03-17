@@ -1,0 +1,13 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "lib": ["ES2015"],
+    "module": "NodeNext", // Changes from COMMONJS to NODEXNEXT else wont work
+  },
+  "exclude": ["node_modules"],
+  "include": ["."]
+}
+
+// config USed from Kitechen SinkTurboRepo URl: https://github.com/vercel/turbo/blob/main/examples/kitchen-sink/apps/api/tsconfig.json
